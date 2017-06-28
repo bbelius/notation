@@ -1,2 +1,2 @@
 # notation
-Open-Source Notation Related Stuff
+Notation Related Stuff
