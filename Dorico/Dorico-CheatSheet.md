@@ -1,4 +1,4 @@
-## Dorico 1.1 Key-Commands Cheat-Sheet (english) v0.1
+## Dorico 1.1 Key-Commands Cheat-Sheet (english) v0.2
 
 - [Dorico 1.1 Key-Commands Cheat-Sheet (english) v0.1](#dorico-1-1-key-commands-cheat-sheet-english-v0-1)
     - [Write-Mode](#write-mode)
