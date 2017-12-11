@@ -1,6 +1,6 @@
-## Dorico 1.1 Key-Commands Cheat-Sheet (english) v0.2
+## Dorico 1.2 Key-Commands Cheat-Sheet (english) v0.3
 
-- [Dorico 1.1 Key-Commands Cheat-Sheet (english) v0.2](#dorico-1-1-key-commands-cheat-sheet-english-v0-2)
+- [Dorico 1.2 Key-Commands Cheat-Sheet (english) v0.3](#dorico-1-2-key-commands-cheat-sheet-english-v0-3)
     - [Write-Mode](#write-mode)
         - [Note Articulation](#note-articulation)
         - [Barline  ( `⇧` + `b` )](#barline-b)
@@ -178,6 +178,17 @@
 | Bracket                           | bracket  |
 
 
+#### Tempo  ( `⇧` + `t` )
+
+| Action               | Shortcut        |
+| -------------------- | --------------- |
+| Tempo Name           | e.g. largo      |
+| Tempo Speed          | e.g. q=50       |
+| Tempo Name and Speed | e.g. largo q=50 |
+| Ritenuto             | rit             |
+| Accelerando          | accel           |
+
+
 #### Chord  ( `⇧` + `q` )
 
 | Action                                  | Shortcut          |
@@ -189,17 +200,6 @@
 | Move to next / previous Chord           | `⇧` + `←`/`→`     |
 | Remove enharmonic spelling override     | `Alt` + `s`       |
 | Remove all enharmonic spelling override | `⇧` + `Alt` + `s` |
-
-
-#### Tempo  ( `⇧` + `t` )
-
-| Action               | Shortcut        |
-| -------------------- | --------------- |
-| Tempo Name           | e.g. largo      |
-| Tempo Speed          | e.g. q=50       |
-| Tempo Name and Speed | e.g. largo q=50 |
-| Ritenuto             | rit             |
-| Accelerando          | accel           |
 
 
 #### Playing Technique  ( `⇧` + `p` )
@@ -222,6 +222,12 @@
 | Time Signature | `⇧` + `m` |
 |                |           |
 | Text           | `⇧` + `x` |
+|                |           |
+| Fingering      | `⇧` + `f` |
+|                |           |
+| Cue            | `⇧` + `u` |
+|                |           |
+| Interval       | `⇧` + `i` |
 
 
 #### Note Duration
