@@ -1,6 +1,6 @@
-# Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.4
+# Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.5
 
-- [Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.4](#dorico-20-key-commands-cheat-sheet-english-v04)
+- [Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.5](#dorico-20-key-commands-cheat-sheet-english-v05)
         - [Write-Mode](#write-mode)
                         - [Input Modes and Actions during Input](#input-modes-and-actions-during-input)
                         - [Note Articulation](#note-articulation)
@@ -27,38 +27,39 @@
                         - [Flow Tokens](#flow-tokens)
                         - [Other Tokens](#other-tokens)
 
+`$` is a placeholder for a valid number.
 
 ## Write-Mode
 
-| Action                                  | Shortcut                      |
-| --------------------------------------- | ----------------------------- |
-| Cut (Scissors)                          | `u`                           |
-| Extend Selection                        | `⇧` + *Arrow*                 |
-| Extend Selection L/R to Prev/Next Bar   | `Ctr` + `⇧` + `←`/`→`         |
-| Move Item (by Grid-Setting)             | `Ctr` + `Alt` + `←`/`→`       |
-| Paste Current Selection                 | `Alt` + *left-click*          |
-| Shorten / Lengthen Duration             | `⇧` + `Alt` + `←`/`→`         |
-| Transpose Pitch Down / Up a Note        | `Alt` + `↓`/`↑`               |
-| Transpose Pitch Octave Down / Up        | `Alt` + `Ctr` + `↓`/`↑`       |
-|                                         |                               |
-| Goto Galley  View                       | `Ctr` + `Alt` + `2`           |
-| Goto Page View                          | `Ctr` + `Alt` + `1`           |
-|                                         |                               |
-| Set Flat                                | `-`                           |
-| Set Natural                             | `0`                           |
-| Set Sharp                               | `=`                           |
-|                                         |                               |
-| Respell Note Name Above (enharmonic)    | `Alt` + `=`                   |
-| Respell Note Name Below (enharmonic)    | `Alt` + `-`                   |
-|                                         |                               |
-| Create Marker                           | `Alt` + `⇧` + `m`             |
-| Cross-Staff Move Note Up / Down         | `n`/`m`                       |
-| De-/Increase Rythmic Grid Resolution    | `Alt` + `[`/`]`               |
-| Lengthen / Shorten Duration by Grid     | `Alt` + `⇧` + `←`/`→`         |
-| Lower / Higher Pitch by Chromatic Step  | `Alt` + `⇧` + `↓`/`↑`         |
-| Move Left / Right                       | `Alt` + `←`/`→`               |
-| Move by Grid                            | `Alt` + `Ctr` + *Arrow*       |
-| Navigate Up / Down Next Stave           | `Ctr` + `↓`/`↑`               |
+| Action                                 | Shortcut                |
+| -------------------------------------- | ----------------------- |
+| Cut (Scissors)                         | `u`                     |
+| Extend Selection                       | `⇧` + *Arrow*           |
+| Extend Selection L/R to Prev/Next Bar  | `Ctr` + `⇧` + `←`/`→`   |
+| Move Item (by Grid-Setting)            | `Ctr` + `Alt` + `←`/`→` |
+| Paste Current Selection                | `Alt` + *left-click*    |
+| Shorten / Lengthen Duration            | `⇧` + `Alt` + `←`/`→`   |
+| Transpose Pitch Down / Up a Note       | `Alt` + `↓`/`↑`         |
+| Transpose Pitch Octave Down / Up       | `Alt` + `Ctr` + `↓`/`↑` |
+|                                        |                         |
+| Goto Galley  View                      | `Ctr` + `Alt` + `2`     |
+| Goto Page View                         | `Ctr` + `Alt` + `1`     |
+|                                        |                         |
+| Set Flat                               | `-`                     |
+| Set Natural                            | `0`                     |
+| Set Sharp                              | `=`                     |
+|                                        |                         |
+| Respell Note Name Above (enharmonic)   | `Alt` + `=`             |
+| Respell Note Name Below (enharmonic)   | `Alt` + `-`             |
+|                                        |                         |
+| Create Marker                          | `Alt` + `⇧` + `m`       |
+| Cross-Staff Move Note Up / Down        | `n`/`m`                 |
+| De-/Increase Rythmic Grid Resolution   | `Alt` + `[`/`]`         |
+| Lengthen / Shorten Duration by Grid    | `Alt` + `⇧` + `←`/`→`   |
+| Lower / Higher Pitch by Chromatic Step | `Alt` + `⇧` + `↓`/`↑`   |
+| Move Left / Right                      | `Alt` + `←`/`→`         |
+| Move by Grid                           | `Alt` + `Ctr` + *Arrow* |
+| Navigate Up / Down Next Stave          | `Ctr` + `↓`/`↑`         |
 
 
 #### Input Modes and Actions during Input
@@ -74,6 +75,7 @@
 | Move Cursor to Top / Bottom Staff   | `Ctr` + `↑`/`↓`         |
 | Start Note Input                    | `Enter`                 |
 | Start Note Input                    | `⇧` + `n`               |
+| Input unpitched notes, rests        | `y`                     |
 |                                     |                         |
 | Extend Selection Left / Right       | `⇧` + `←`/`→`           |
 | Next Voice                          | `v`                     |
@@ -109,7 +111,7 @@
 | Create Voice                        | `⇧` + `v`               |
 | Crescendo                           | `⇧` + `<`               |
 | Diminuendo                          | `⇧` + `>`               |
-| Move Music to Stuff Above / Below   | `Alt` + `n`/`m`         |
+| Move Music to Staff Above / Below   | `Alt` + `n`/`m`         |
 | Next Voice                          | `v`                     |
 | Rehearsal Mark                      | `⇧` + `a`               |
 | Slur                                | `s`                     |
@@ -131,19 +133,19 @@
 
 #### Barline  ( `⇧` + `b` )
 
-| Action                | Shortcut          |
-| --------------------- | ----------------- |
-| Bidirectional Repeat  | `|:` ⟺ `endstart` |
-| Create number of Bars | `+` + *number*    |
-| Dashed Barline        | `:` ⟺ `dash`      |
-| Delete number of Bars | `-` + *number*    |
-| Double Barline        | `||` ⟺ `double`   |
-| End Repeat            | `:|` ⟺ `end`      |
-| Final Barline         | `|]` ⟺ `fin`      |
-| Normal Barline        | `|` ⟺ `single`    |
-| Short Barline         | `,` ⟺ `short`     |
-| Start Repeat          | `|:` ⟺ `start`    |
-| Tick Barline          | `'` ⟺ `tick`      |
+| Action                | Shortcut                  |
+| --------------------- | ------------------------- |
+| Bidirectional Repeat  | `:|:` ⟺ `endstart`         |
+| Create number of Bars | `+` + *number* ⟺ *number* |
+| Dashed Barline        | `:` ⟺ `dash`              |
+| Delete number of Bars | `-` + *number*            |
+| Double Barline        | `||` ⟺ `double`           |
+| End Repeat            | `:|` ⟺ `end`              |
+| Final Barline         | `|]` ⟺ `fin`              |
+| Normal Barline        | `|` ⟺ `single`            |
+| Short Barline         | `,` ⟺ `short`             |
+| Start Repeat          | `|:` ⟺ `start`            |
+| Tick Barline          | `'` ⟺ `tick`              |
 
 
 #### Clef  ( `⇧` + `c` )
@@ -193,7 +195,7 @@
 | Caesura             | `//` ⟺ `caesura`        |
 | Curlew              | `curlew`                |
 | Curved Caesura      | `caesuracurved`         |
-| Fermata             | `fermata`               |
+| Fermata             | `fermata` ⟺ `fer`       |
 | Long Fermata        | `longfermata`           |
 | Long Henze Fermata  | `longhenzefermata`      |
 | Salzedo Breathmark  | `breathmarksalzedo`     |
@@ -283,14 +285,15 @@
 
 #### Repeats  ( `⇧` + `r` )
 
-| Action                  | Shortcut      |
-| ----------------------- | ------------- |
-| Repeat Bars             | `%$,$`        |
-| Repeat Bars (count `$`) | `%$`          |
-| Slash Region            | `slash`       |
-| Temolo Z                | `z`           |
-| Tremolos                | `/` to `////` |
-| Tremolos Clear          | `0`           |
+| Action                  | Shortcut        |
+| ----------------------- | --------------- |
+| Repeat Bars             | `%$,$`          |
+| Repeat Bars (count `$`) | `%$`            |
+| Slash Region            | `slash`         |
+| Temolo Z                | `z`             |
+| Tremolos                | `/` to `////`   |
+| Tremolos between Notes  | `/2` to `////2` |
+| Tremolos Clear          | `0`             |
 
 
 #### Other Popups
