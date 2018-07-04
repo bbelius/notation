@@ -25,6 +25,7 @@
         - [Tokens](#tokens)
                         - [Project Tokens](#project-tokens)
                         - [Flow Tokens](#flow-tokens)
+                        - [DateTime Tokens](#datetime-tokens)
                         - [Other Tokens](#other-tokens)
 
 `$` is a placeholder for a valid number.
@@ -135,7 +136,7 @@
 
 | Action                | Shortcut                  |
 | --------------------- | ------------------------- |
-| Bidirectional Repeat  | `:|:` ⟺ `endstart`         |
+| Bidirectional Repeat  | `:|:` ⟺ `endstart`        |
 | Create number of Bars | `+` + *number* ⟺ *number* |
 | Dashed Barline        | `:` ⟺ `dash`              |
 | Delete number of Bars | `-` + *number*            |
@@ -437,10 +438,8 @@
 | Copyright         | `{@projectcopyright@}`       |
 | Dediction         | `{@projectdedication@}`      |
 | Editor            | `{@projecteditor@}`          |
-| Layout Name       | `{@layoutname@}`             |
 | Lyricist          | `{@projectlyricist@}`        |
 | Other Information | `{@projectotherinfo@}`       |
-| Page Count        | `{@pageCount@}`              |
 | Publisher         | `{@projectpublisher@}`       |
 | Subtitle          | `{@projectsubtitle@}`        |
 | Title             | `{@projecttitle@}`           |
@@ -472,6 +471,34 @@
 
 Note: `%` inbetween the tokens is a placeholder for flow-number (ex. `{@flow3title@}` is the title of the third flow). Also you can write `{@flowtitle@}`.
 
+
+#### DateTime Tokens
+
+Note: If you insert `project`, the tokens will display the DateTime at which the project was last saved.
+
+| Fieldname        | Token                |
+| ---------------- | -------------------- |
+| Date             | `{@date@}`           |
+| Year             | `{@dateyear@}`       |
+| Year Short       | `{@dateyearshort@}`  |
+| Month Name       | `{@datemonth@}`      |
+| Month Short Name | `{@datemonthshort@}` |
+| Month Number     | `{@datemonthnum@}`   |
+| Day Name         | `{@dateday@}`        |
+| Day Short Name   | `{@datedayshort@}`   |
+| Day Number       | `{@datedaynum@}`     |
+| Date (ISO8601)   | `{@dateymd@}`        |
+| Month Day, Year  | `{@datemdy@}`        |
+| Day Month Year   | `{@datedmy@}`        |
+| Local Time       | `{@datetime@}`       |
+| Time HHMM        | `{@datetimeHHMM@}`   |
+| Time HHMMSS      | `{@datetimeHHMMSS@}` |
+| Hour (24-hour)   | `{@datetimehour24@}` |
+| Hour (12-hour)   | `{@datetimehour12@}` |
+| Minute           | `{@datetimeminute@}` |
+| Second           | `{@datetimesecond@}` |
+
+
 #### Other Tokens
 
 | Fieldname    | Token             |
@@ -480,3 +507,5 @@ Note: `%` inbetween the tokens is a placeholder for flow-number (ex. `{@flow3tit
 | Page-number  | `{@page@}`        |
 | Player-list  | `{@playerlist@}`  |
 | Player-names | `{@playernames@}` |
+| Layout Name  | `{@layoutname@}`  |
+| Page Count   | `{@pageCount@}`   |
