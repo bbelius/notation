@@ -1,6 +1,6 @@
-# Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.5
+# Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.7
 
-- [Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.5](#dorico-20-key-commands-cheat-sheet-english-v05)
+- [Dorico 2.0 Key-Commands Cheat-Sheet (english) v0.7](#dorico-20-key-commands-cheat-sheet-english-v07)
         - [Write-Mode](#write-mode)
                         - [Input Modes and Actions during Input](#input-modes-and-actions-during-input)
                         - [Note Articulation](#note-articulation)
@@ -211,13 +211,13 @@
 
 #### Key Signature  ( `⇧` + `k` )
 
-| Action                  | Shortcut              |
-| ----------------------- | --------------------- |
-| Major Keys              | `C` - `B` `C#` - `Bb` |
-| Major Keys (number `$`) | `$s` ⟺ `$#`           |
-| Minor Key               | `c` - `h` `c#` - `bb` |
-| Minor Key (number `$`)  | `$f` ⟺ `$b`           |
-| Open / Atonal           | `open` ⟺ `atonal`     |
+| Action           | Shortcut              |
+| ---------------- | --------------------- |
+| Major Key        | `C` - `B` `C#` - `Bb` |
+| Minor Key        | `c` - `h` `c#` - `bb` |
+| Number of Flats  | `$f` ⟺ `$b`           |
+| Number of Sharps | `$s` ⟺ `$#`           |
+| Open / Atonal    | `open` ⟺ `atonal`     |
 
 
 #### Lyrics  ( `⇧` + `l` )
