@@ -326,6 +326,7 @@
 | Whole-note duration     | *Numpad* `8` |
 | Breve note duration     | *Numpad* `9` |
 | Dotted Note(s)          | `.`          |
+| Multi-Dotted Note       | `Alt` + `.`  |
 
 
 ## Mixer
