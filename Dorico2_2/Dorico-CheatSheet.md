@@ -1,6 +1,6 @@
-# Dorico 2.2 Key-Commands Cheat-Sheet (english) v0.8
+# Dorico 2.2 Key-Commands Cheat-Sheet (english) v0.9
 
-- [Dorico 2.2 Key-Commands Cheat-Sheet (english) v0.8](#dorico-22-key-commands-cheat-sheet-english-v08)
+- [Dorico 2.2 Key-Commands Cheat-Sheet (english) v0.9](#dorico-22-key-commands-cheat-sheet-english-v09)
   - [Write-Mode](#write-mode)
       - [Input Modes and Actions during Input](#input-modes-and-actions-during-input)
       - [Note Articulation](#note-articulation)
@@ -71,8 +71,7 @@
 | Move Cursor Previous / Next Measure | `Ctr` + `←`/`→`         |
 | Move Cursor Up/Down Staff           | `↑`/`↓`                 |
 | Move Cursor to Top / Bottom Staff   | `Ctr` + `↑`/`↓`         |
-| Start Note Input                    | `Enter`                 |
-| Start Note Input                    | `⇧` + `n`               |
+| Start Note Input                    | `Enter` ⟺ `⇧` + `n`    |
 | Input unpitched notes, rests        | `y`                     |
 |                                     |                         |
 | Extend Selection Left / Right       | `⇧` + `←`/`→`           |
@@ -87,9 +86,8 @@
 | Toggle Rests                        | `,`                     |
 | Toggle Tie                          | `t`                     |
 |                                     |                         |
-| Start Slur                          | `s`                     |
-| Stop Slur                           | `⇧` + `s`               |
-| Tuplet Popup / End Tuplet Input     | `;`                     |
+| Start / Stop Slur                   | `s` / `⇧` + `s`         |
+| Tuplet Popup / End Tuplet / Nested  | `;` / `⇧` + `;` / `;;`  |
 |                                     |                         |
 | Enter Pitch A - B                   | `a` - `b`               |
 | Enter Pitch X                       | `x`                     |
@@ -100,8 +98,8 @@
 | Create Grace Note                   | `/`                     |
 | Create Slash Voice                  | `⇧` + `Alt` + `v`       |
 | Create Voice                        | `⇧` + `v`               |
-| Crescendo                           | `⇧` + `<`               |
-| Diminuendo                          | `⇧` + `>`               |
+| Crescendo / Diminuendo              | `⇧` + `<`/`>`           |
+| Messa di voce / ><                  | `⇧` + `Alt` + `>`/`<`   |
 | Move Music to Staff Above / Below   | `Alt` + `n`/`m`         |
 | Next Voice                          | `v`                     |
 | Rehearsal Mark                      | `⇧` + `a`               |
@@ -166,19 +164,18 @@
 | Treble G 8ba         | `g8ba` ⟺ `g8d`   |
 | Treble G 8va         | `g8va` ⟺ `g8u`   |
 | Unpitched Percussion | `perc`           |
+| 8va line e.g.        | `8va` e.g.       |
 
 
 #### Dynamic  ( `⇧` + `d` )
 
-| Action      | Shortcut             |
-| ----------- | -------------------- |
-| Dynamics    | `pppppp` to `ffffff` |
-| Crescendo   | `<` ⟺ `cresc.`       |
-| Diminduendo | `>` ⟺ `dim.`         |
-|             | `<>`                 |
-|             | `><`                 |
-|             | `piu mp`             |
-| Sforzando   | `sfz`                |
+| Action                    | Shortcut             |
+| ------------------------- | -------------------- |
+| Dynamics                  | `pppppp` to `ffffff` |
+| Crescendo                 | `<` ⟺ `cresc.`       |
+| Diminduendo               | `>` ⟺ `dim.`         |
+| Messa di voce, ><, piu mp | `<>`, `><`, `piu mp` |
+| Sforzando                 | `sfz`                |
 
 
 #### Hold / Pause  ( `⇧` + `h` )
@@ -210,7 +207,7 @@
 | Hard Space                              | `⇧` + `Alt` + `Space` |
 | Hyphen in Word                          | `Alt` + `-`           |
 | Switch From Lyric to Chorus/Translation | `Alt` + `↓`/`↑`       |
-| Switch Vers                             | `↓`/`↑`               |
+| Switch Verse                            | `↓`/`↑`               |
 
 
 #### Ornament  ( `⇧` + `o` )
